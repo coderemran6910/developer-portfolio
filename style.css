@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-nav .logo{
+
+nav .logo {
     color: #181818;
     font-family: Open Sans;
     font-size: 45px;
@@ -12,27 +13,70 @@ nav .logo{
     font-weight: 800;
     line-height: normal;
 }
-nav span{
+
+nav span {
     color: #FD6E0A;
 }
 
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.contaner {
     padding: 20px 150px;
 }
-.menu ul{
+
+.menu ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
-    align-items: center; 
-    gap: 50px;   
+    align-items: center;
+    gap: 50px;
 
 }
-.menu ul li a{
-    color:#474747;
+
+.menu ul li a {
+    color: #474747;
     font-size: 20px;
     font-weight: 400;
     text-decoration: none;
 }
+
+.btn-praimary {
+    width: 150px;
+    height: 64px;
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+
+
+
+/* Banner Css  */
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.main-banner {
+    width: 100%;
+    background-image: url("/images/hardy.png");
+
+}
+.banner-img{
+    width: 500px;
+    height: auto;
+}
+
