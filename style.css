@@ -22,10 +22,12 @@ nav span {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #daa98682;
 }
 
 .contaner {
     padding: 20px 150px;
+    padding-bottom: 0px;
 }
 
 .menu ul {
@@ -67,6 +69,9 @@ nav span {
     justify-content: space-between;
     align-items: center;
     height: 100vh;
+    background-image: url("./images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
 
 }
 
@@ -75,8 +80,45 @@ nav span {
     background-image: url("/images/hardy.png");
 
 }
-.banner-img{
-    width: 500px;
+
+.banner-img {
+    width: 52%;
     height: auto;
 }
 
+
+
+
+
+/* Abiut me section style    */
+.aboutMe-section {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(223, 167, 93);
+}
+
+.about-title {
+    padding-top: 130px;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.about-desc {
+    color:#757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.about-info{
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+.about-info item{
+    font-weight: 400;
+}
